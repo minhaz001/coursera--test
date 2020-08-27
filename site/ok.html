@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Learn Web Development</title>
+	<link rel="stylesheet" type="text/css" href="okstyle.css">
 
 <style>
 	
@@ -9,27 +10,37 @@
 		color: purple;
 		text-align: center;
 		font-weight: bold;
-		font-size: 36px;
+		font-size: 40px;
 	}
 h3{
 	color: red;
 	background-color: yellow;
-	font-size: 24px;
-	width: 350px;
+	font-size: 28px;
 }
-.mkg{
+.div1{
 	background-color: orange;
 	color: blue;
-	width: 250px;
+	font-size: 24px;
+	font-weight: bold;
 }
-.scb{
+.ul1 a {
+	text-decoration: none;
 	background-color: violet;
 	font-size: 18px;
 	color: black;
 	font-weight: bold;
-	width: 250px;
+	border: 1px solid black;
+	display: block;
+	width: 400px;
 	text-align: center;
 }
+
+a:hover,a:active {
+color: black;
+background-color: gray;
+font-size: 20px;
+}
+
 aside{
 	color: purple;
 	font-size: 22px;
@@ -44,8 +55,8 @@ aside{
 <h1>Enjoy Web Development</h1>
 
 <section>
-	<div class="scb"> ~~Contents~~ </div>
-<ul class="mkg">
+	<div class="div1"> ~~Contents~~ </div>
+<ul class="ul1">
 	<li> <a href="#section1">Why Learn Web Development? </a> </li>
 	<li> <a href="#section2">Understanding The Web </a> </li>
 	<li> <a href="#section3">What is Web Development? </a> </li>
@@ -111,9 +122,11 @@ aside{
 </section>
 </div>
 
+<section>
 <p>
 <aside>Spiders All in Tune &copy; All Rights Reserved </aside>
 </p>
+</section>
 
 </body>
 </html>
